@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I am a web developer passionate about creating modern, user-friendly websites.</p>
+            <a href="#projects" class="btn">Explore Projects</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Calculator</h3>
+                    <a href="https://finnarmy.github.io/calculator/" target="_blank">Visit Calculator</a>
+                    <p>A functional calculator built with HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project-card">
+                    <h3>To-Do List</h3>
+                    <a href="https://finnarmy.github.io/to-do/" target="_blank">Visit To-Do List</a>
+                    <p>A task management app to add, delete, and mark tasks as completed.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Age Calculator</h3>
+                    <a href="https://finnarmy.github.io/age-calculator/" target="_blank">Visit Age Calculator</a>
+                    <p>Calculate your age accurately based on your date of birth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I’m a web developer with expertise in HTML, CSS, and JavaScript. I love building responsive, modern web apps that solve real-world problems. I focus on creating intuitive user experiences and continually learning new technologies to stay up-to-date.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
